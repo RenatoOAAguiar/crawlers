@@ -7,7 +7,7 @@ import time
 from googletrans import Translator
 
 translator = Translator()
-proxy = 'http://proxylatam.indra.es:8080'
+proxy = 'http://server:port'
 
 class BlogSpider(scrapy.Spider):
     name = 'blogspider',
